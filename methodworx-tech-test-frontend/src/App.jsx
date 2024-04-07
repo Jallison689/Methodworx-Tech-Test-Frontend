@@ -1,12 +1,7 @@
-import { useState, useEffect } from 'react'
-import './App.css'
+import React, { Component } from 'react';
+import './App.css';
 
 function App() {
-  const [data, setData] = useState([])
-
-    useEffect(() => {
-        fetchData();
-    }, []);
 
     const fetchData = async () => {
         try {
@@ -24,13 +19,12 @@ function App() {
           </div>
           <h1>Products</h1>
           <div className="card">
-              <table>
-                  <tr>
-                  </tr>
-              </table>
-              <p>
-                  Edit <code>src/App.jsx</code> and save to test HMR
-              </p>
+              <code>
+                  //dynamically generate the table of products with the additions of the add, details and stock additions
+                  //have the basket button up in the corner
+                  //have a model pop up when basket is clicked containing the basket
+                  //change to checkout page when checkout clicked
+              </code>
           </div>
           <p className="read-the-docs">
               Click on the Vite and React logos to learn more
